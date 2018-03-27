@@ -48,8 +48,8 @@ app.use(session({
     // Forces the session to be saved back to the session store,
     // even if the session was never modified during the request
     resave: true,
-    //force to save uninitialized session to db.
-    //A session is uninitialized when it is new but not modified.
+    // force to save uninitialized session to db.
+    // A session is uninitialized when it is new but not modified.
     saveUninitialized: true,
     duration: 30 * 60 * 1000,
     activeDuration: 5 * 6 * 1000,
